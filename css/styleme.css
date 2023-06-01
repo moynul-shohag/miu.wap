@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Arial Black, Verdana, Trebuchet MS, Georgia, Tahoma, Courier New, Times New Roman, sans-serif;
+    background-color: #95c4a7;
+    margin: 0px;
+}
+
+
+.emphasize {
+    font-weight: bold;
+    color: white;
+}
+
+#header {
+    background-color: #7fa094;
+    border: 1px solid #796e6e;
+    padding: 10px;
+}
+
+.headerTitle {
+    color: #683f06;
+}
+
+#content {
+    margin: 10px;
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+p::first-letter {
+    color: #ee9c1b;
+    font-size: 200%;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.profile {
+    width:100px;
+}
