@@ -1,0 +1,72 @@
+body {
+    font-family : Arial, "Arial Black", Verdana, "Trebuchet MS", Georgia, Tahoma, CourierNew, "Times New Roman", sans-serif;
+}    
+
+#layoutLogo{
+    width: 100px;
+    height:100px;
+}
+
+.btnLogOut{  
+    float: right;
+    height: 30px;
+    margin-top: 26px;
+    color: chocolate;
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+table{
+    width: 100%;
+}
+
+
+table,
+td,
+th {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.shoppingCartImage{
+    height: 14px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qntityTextBox{
+    width: 50px;
+    text-align: center;
+    
+}
+
+.qtyBtnTxtBoxPos{
+    text-align: center;
+    
+}
+
+.textPos{
+    text-align: center;
+    
+}
+
+.total{
+    text-align: right;
+}
+
+.placeOrderBtn{ 
+    float: right;
+    height: 30px;
+    margin-top: 10px;
+    color: chocolate;
+}
+.profile {
+    width:100px;
+    margin-top: 10px;
+}
