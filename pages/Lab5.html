@@ -17,13 +17,11 @@
             <div>
                 <div >
                     <pre>
-                        function sum(aarray) {
-                            const filteredArray = aarray.reduce(function (sum, elem) {
-                                return elem > 20 ? sum + elem : sum + 0;
+                        function sum(arr) {
+                            return arr.filter(element=>element>20)
+                                       .reduce((result,element)=>result+element,0);
                         
-                            }, 0);
-                            return filteredArray;
-                        }
+                            }
                     </pre>
                 </div>
             </div>
