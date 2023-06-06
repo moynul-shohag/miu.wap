@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6- Assignment</title>
+</head>
+
+<body>
+    <div>
+        <h1>Lab Assignment 6</h1>
+        <hr>
+        <h3>Exercise 1: What’s the output in the console?</h3>
+        <div>
+            <div>
+                <pre>
+                    function b() {
+                        const y = 30;
+                        a();
+                        function a() {
+                            console.log(x, y);
+                            }
+                        var x = 10;
+                        console.log(x, y);
+                        }
+                        const x = 20;
+                        var y = 40;
+                        b();
+                        
+                    </pre>
+
+                    <h3>Output: <br>undefined 30<br> 10 30</h3>      
+            </div>
+        </div>
+        <hr>
+        <h3>Exercise 2: What’s the output in the console?
+        </h3>
+        <div>
+            <div>
+                <pre>
+                    function foo(x) {
+                        let m;
+                        console.log(x, y);
+                        if(x > 5){
+                            var y = 5;
+                            m = x + y;
+                            } else {
+                                let z = 10;
+                                m = z;
+                                }
+                        x = m;
+                        console.log(x, y);
+                        }
+                        var x = 10;
+                        foo(3);
+                        console.log(x);;
+            </pre>
+            <h3>Output: <br>3 undefined<br> 10 undefined<br>10</h3>
+            </div>
+        </div>
+
+        <hr>
+        <h3>Exercise 3: Write a function printNumbers(from, to) that outputs a number every second,
+            starting from from and ending with to.</h3>
+        <div>
+            <div>
+                <pre>
+                    const printNumbers = function (from, to) {
+                        let base=1;
+                        while(from<=to){
+                            setTimeout(function(x){
+                                console.log(x);
+                            },base*1000,from);
+                            from++;
+                            base++;
+                        }
+                        return;
+                    };
+            </pre>
+            </div>
+            <hr>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

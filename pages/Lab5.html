@@ -10,28 +10,28 @@
 
 <body>
     <div>
-            <h1>Assignment 5 - Introduction of JavaScript</h1>
-            <hr>
-            <h3>Task #1- Create a function using function declaration named sum with one parameter of Array type, the
-                returned result is the sum of all elements which are greater than 20.</h3>
+        <h1>Assignment 5 - Introduction of JavaScript</h1>
+        <hr>
+        <h3>Task #1- Create a function using function declaration named sum with one parameter of Array type, the
+            returned result is the sum of all elements which are greater than 20.</h3>
+        <div>
             <div>
-                <div >
-                    <pre>
+                <pre>
                         function sum(arr) {
                             return arr.filter(element=>element>20)
                                        .reduce((result,element)=>result+element,0);
                         
                             }
                     </pre>
-                </div>
             </div>
-<hr>
-    <h3>Task #2- Create a function using function expression named getNewArray with one parameter of String
-        Array, return a new array which contains all string, length is greater than and equal to 5, and
-        contains letter ‘a’</h3>
-    <div>
-        <div >
-            <pre>
+        </div>
+        <hr>
+        <h3>Task #2- Create a function using function expression named getNewArray with one parameter of String
+            Array, return a new array which contains all string, length is greater than and equal to 5, and
+            contains letter ‘a’</h3>
+        <div>
+            <div>
+                <pre>
                 const getNewArray = function (array) {
                     const newArray = array.filter(function (elem) {
                         return elem.length >= 5 && elem.includes('a') ? elem : undefined;
@@ -39,9 +39,9 @@
                     return newArray;
                 };
             </pre>
+            </div>
+            <hr>
         </div>
-        <hr>
-</div>
 
 
 
